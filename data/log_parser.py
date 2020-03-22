@@ -7,3 +7,5 @@ for line in file:
     line = line.rstrip()
     if re.search('WARNING:', line):
         print(line[0:14]+' -- '+ line[45:])
+    else:
+        pass

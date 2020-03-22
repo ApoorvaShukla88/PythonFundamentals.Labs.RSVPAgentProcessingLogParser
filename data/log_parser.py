@@ -2,7 +2,7 @@ import re
 #from datetime import datetime
 
 file = open('rsvp_agent_log.dat')
-
+print('WARNINGS: ')
 for line in file:
     line = line.rstrip()
     if re.search('WARNING:', line):
